@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  // book
+  selector: 'app-start',
+  template: '<h1>Hello Angular..!</h1>', // view : UI
 })
 export class AppComponent {
-  title = 'onlineAngular';
+  // data and logic
 }

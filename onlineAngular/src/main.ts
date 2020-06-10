@@ -1,12 +1,21 @@
-import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
 
-if (environment.production) {
-  enableProdMode();
+platformBrowserDynamic().bootstrapModule(AppModule); // to ru module
+
+//  mail->module :  inbox-> c, spam -> c, send->c,......
+
+/*
+
+
+function add( num1, num2){
+  print : num1 + num2
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+a=10
+b=20
+
+add(a,b)
+
+*/

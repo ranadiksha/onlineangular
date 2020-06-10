@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "onlineAngular"
+    }
+  },
+  "defaultProject": "onlineAngular",
+  "cli": {
+    "analytics": false
+  }
 }
