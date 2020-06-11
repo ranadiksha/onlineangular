@@ -19,18 +19,24 @@ export class AppComponent {
       name: 'Screen 5.5',
       description: '5.5 Screen for Moto g',
       inStock: 5,
+      prodColor: 'brown',
+      canPurch: true,
     },
     {
       id: 1002,
       name: 'Screen 5',
       description: '5 Screen for Samsung',
       inStock: 8,
+      prodColor: 'green',
+      canPurch: false,
     },
     {
       id: 1003,
       name: 'key panel',
       description: 'Key panel for Nokia',
       inStock: 0,
+      prodColor: 'red',
+      canPurch: false,
     },
   ];
 }
