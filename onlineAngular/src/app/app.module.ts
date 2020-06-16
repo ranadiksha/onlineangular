@@ -9,9 +9,20 @@ import { BannerTwoComponent } from './layouts/banner-two/banner-two.component';
 import { ContactUsComponent } from './layouts/contact-us/contact-us.component';
 import { BannerThreeComponent } from './layouts/banner-three/banner-three.component';
 import { FooterComponent } from './layouts/footer/footer.component';
+import { SqrtPipe } from './pipes/sqrt.pipe';
 
 @NgModule({
-  declarations: [AppComponent, NavComponent, BannerOneComponent, ProductsComponent, BannerTwoComponent, ContactUsComponent, BannerThreeComponent, FooterComponent],
+  declarations: [
+    AppComponent,
+    NavComponent,
+    BannerOneComponent,
+    ProductsComponent,
+    BannerTwoComponent,
+    ContactUsComponent,
+    BannerThreeComponent,
+    FooterComponent,
+    SqrtPipe,
+  ],
   imports: [BrowserModule], // module : group of logics
   bootstrap: [AppComponent], // to run : root compo
 })
